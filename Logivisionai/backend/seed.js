@@ -804,7 +804,7 @@ const shifts = [
 const seedDatabase = async () => {
   try {
     // Connect to MongoDB
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/logivision');
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://aayushkarbhal5_db_user:JWI8eswdRfAvXYSg@cluster0.ikjugpu.mongodb.net');
     console.log('✅ Connected to MongoDB');
 
     // Clear existing data

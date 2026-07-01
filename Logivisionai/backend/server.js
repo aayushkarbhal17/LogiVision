@@ -1,4 +1,4 @@
-require("dotenv").config();
+require('dotenv').config();
 const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io");
@@ -250,7 +250,7 @@ app.use("/api/challans", challanRoutes);
 app.use("/api/docks", dockRoutes);
 app.use("/api/inventory", inventoryRoutes);
 app.use("/api/freight", freightRoutes);
-app.use("/api/payments", paymentRoutes);
+//app.use("/api/payments", paymentRoutes);
 app.use("/api/settings", settingsRoutes);
 
 // Custom entries route requested by Guard form
