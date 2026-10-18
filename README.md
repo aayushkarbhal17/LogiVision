@@ -23,3 +23,4 @@
 This project uses a **Monorepo** structure. 
 - **The Challenge:** Connecting a Vercel-hosted frontend to a Render-hosted backend while avoiding CORS issues.
 - **The Solution:** Implemented a **Vercel Reverse Proxy** using `vercel.json` to route all `/api` requests to the Render instance seamlessly.
+"# LogiVision" 
